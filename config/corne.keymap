@@ -35,10 +35,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp ESCAPE        &kp N1      &kp N2        &kp N3        &kp N4  &kp N5       &kp N6    &kp N7          &kp N8            &kp N9      &kp N0        &kp BSPC
-&kp LEFT_CONTROL  &trans      &trans        &trans        &trans  &trans       &kp LEFT  &kp DOWN        &kp UP            &kp RIGHT   &kp C_VOL_UP  &trans
-&kp LSHFT         &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &trans  &trans       &trans    &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT  &kp C_VOL_DN  &mo 3
-                                            &kp LGUI      &trans  &kp SPACE    &kp RET   &trans          &kp RALT
+&kp ESCAPE        &kp N1  &kp N2  &kp N3    &kp N4  &kp N5       &kp N6    &kp N7          &kp N8            &kp N9      &kp N0        &kp BSPC
+&kp LEFT_CONTROL  &trans  &trans  &trans    &trans  &trans       &kp LEFT  &kp DOWN        &kp UP            &kp RIGHT   &kp C_VOL_UP  &trans
+&kp LSHFT         &trans  &trans  &trans    &trans  &trans       &trans    &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT  &kp C_VOL_DN  &mo 3
+                                  &kp LGUI  &trans  &kp SPACE    &kp RET   &trans          &kp RALT
             >;
         };
 
@@ -59,10 +59,10 @@
 
         layer_3 {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6    &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans   &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans   &trans   &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&kp F1  &kp F2        &kp F3        &kp F4        &kp F5      &kp F6            &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
+&trans  &trans        &trans        &trans        &trans      &trans            &trans  &trans  &trans  &trans   &trans   &trans
+&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR  &bt BT_CLR_ALL    &trans  &trans  &trans  &trans   &trans   &trans
+                                    &trans        &trans      &trans            &trans  &trans  &trans
             >;
         };
     };
